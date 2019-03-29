@@ -39,8 +39,8 @@ public final class PageView: UIView {
   fileprivate var topBackgroundImageView = UIImageView()
   fileprivate var bottomBackgroundImageView = UIImageView()
 
-  public var topContainerOffset: CGFloat = 20 { didSet { topContainerAnchor.constant = topContainerOffset } }
-  public var bottomContainerOffset: CGFloat = 20 { didSet { bottomContainerAnchor.constant = bottomContainerOffset } }
+  public var topContainerOffset: CGFloat = 25 { didSet { topContainerAnchor.constant = topContainerOffset } }
+  public var bottomContainerOffset: CGFloat = 25 { didSet { bottomContainerAnchor.constant = bottomContainerOffset } }
 
   public var offsetBetweenContainers: CGFloat = 8 {
     didSet {
